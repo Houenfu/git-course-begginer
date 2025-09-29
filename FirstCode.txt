@@ -1,0 +1,15 @@
+git --version:查看git版本
+git config --global --list:查看git的user
+git config --global --user.name "xxxx":重命名user.name为xxxx
+git config --global --user.email "xxxx@fake.com":为user设置邮箱
+git status:查看git状态
+git init:在个人项目中创建一个本地仓库！.git的一个文件夹
+git init -b main:是一个Git命令，用来初始化一个新的仓库并指定默认分支名为main
+git add <file>:将file放入到暂存区
+git rm --cached <file>:将file从暂存区移除
+git commit -m "My first commit":把已经添加到暂存区的文件保存为一次提交，并附上提交说明"My first commit"
+git log:用来查看仓库里的提交历史
+
+// -----------------------------------------------------------------------
+Hello world!Houenfu！！！
+Hello!!
