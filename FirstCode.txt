@@ -9,8 +9,11 @@ git add <file>:将file放入到暂存区
 git rm --cached <file>:将file从暂存区移除
 git commit -m "My first commit":把已经添加到暂存区的文件保存为一次提交，并附上提交说明"My first commit"
 git log:用来查看仓库里的提交历史
+git diff:用来查看文件的改动内容
 
 // -----------------------------------------------------------------------
 Hello world!Houenfu！！！
-Hello!!
 Hello!!!!!
+take input from user
+add the values
+Hello git
