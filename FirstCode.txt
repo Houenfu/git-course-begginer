@@ -11,6 +11,22 @@ git commit -m "My first commit":把已经添加到暂存区的文件保存为一
 git log:用来查看仓库里的提交历史
 git diff:用来查看文件的改动内容, 比较的是工作区与暂存区的差异
 git diff --staged:是用来查看暂存区与仓库之间的差异
+git add .:将目录的所有文件全部添加至暂存区！
+git rm --cached creads.txt:删除文件并将文件添加至暂存区，然后手动commit提交改动，这样才能删除这个文件！
+git colone http://...:是Git用来从远程仓库克隆（下载）整个项目到本地的命令！
+mkdir git-course:创建名为git-course的文件夹
+cd git-course:跳转到git-course
+dir:列出当前目录下的文件或文件夹
+ls:列出当前目录下的文件或文件夹（按列排序，不显示隐藏文件），跟windows中的dir差不多！
+echo "# git-course demo" >> README.md:把文本"# git-course demo"添加到README.md文件末尾
+cat <file>:用来查看文件内容！
+git branch -M main:重命名当前的分支为main，并强制覆盖已存在的分支（如果有的话）
+ssh-keygen -o:生成一个新的SSH密钥对，其中-o参数指定使用OpenSSH新的密钥格式，而不是旧的PEM格式
+ssh-keygen -o-->cd C:\users\32318-->cd .ssh-->ls-->cat xxxx.pub:获取ssh密钥，并且添加到GitHub
+git remote add origin git@github.com:Houenfu/git-course-begginer.git:添加远程仓库并起名为origin
+git push -u origin main:把本地main分支的提交推送到远程仓库origin
+pwd:输出当前所在目录
+
 
 // -----------------------------------------------------------------------
 Hello world!Houenfu！！！
