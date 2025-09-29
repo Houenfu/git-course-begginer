@@ -16,4 +16,4 @@ Hello world!Houenfu！！！
 Hello!!!!!
 take input from user
 add the values
-Hello git
+Hello Git
