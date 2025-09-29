@@ -43,6 +43,7 @@ git branch --all:列出本地和远程所有分支，本地分支会直接显示
 git switch -:回到上一个分支
 git branch -d feacher3:删除本地分支feacher3
 git log --graph:以为Ascii图形的方式显示提交历史，可以直观看到分支、合并的结构，适合查看复杂分支和合并历史
+git merge feacher2:将feacher2合并到main
 
 
 // -----------------------------------------------------------------------
