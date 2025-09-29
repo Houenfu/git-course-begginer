@@ -24,8 +24,20 @@ git branch -M main:重命名当前的分支为main，并强制覆盖已存在的
 ssh-keygen -o:生成一个新的SSH密钥对，其中-o参数指定使用OpenSSH新的密钥格式，而不是旧的PEM格式
 ssh-keygen -o-->cd C:\users\32318-->cd .ssh-->ls-->cat xxxx.pub:获取ssh密钥，并且添加到GitHub
 git remote add origin git@github.com:Houenfu/git-course-begginer.git:添加远程仓库并起名为origin
-git push -u origin main:把本地main分支的提交推送到远程仓库origin
+git push -u origin main:把本地main分支的提交推送到远程仓库origin，设置上游
 pwd:输出当前所在目录
+git push origin main:把本地main分支提交推送到原曾仓库origin，不设置上游
+git tag -a v1.0 -m "1st release":创建一个带注释的标签
+git show v1.0:查看标签v1.0指向的commit详情
+git tag v1.1 -m "29th Sep release":创建一个标签v1.1并添加说明
+git push origin v1.1:将本地标签v1.1推送到远程仓库
+git tag:列出本地仓库中已有的所有标签（tags）
+git clone git@github.com:Houenfu/git-course-begginer.git:通过SSH，git clone到本地！前提是需要ssh密钥
+git log --pretty=oneline:用一行显示每个提交（commit）记录，比默认的git log简洁得多
+git remote -v:查看本地仓库关联的远程仓库的地址
+git cheackout -b feature1:在当前分支的基础上创建一个新分支feature1
+git branch:列出本地所有分支，当前所在分支会在名字前用*标记
+git switch feacher1:切换到已有分支feacher1
 
 
 // -----------------------------------------------------------------------
