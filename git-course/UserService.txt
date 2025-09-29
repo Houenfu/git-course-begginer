@@ -2,3 +2,5 @@ Get the user data...
 
 hello, enfu!
 process the data
+
+create an avatar for user
